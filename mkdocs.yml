@@ -1,0 +1,17 @@
+site_name: SVAR Public Docs
+nav:
+  - Home: "index.md"
+  - Setting Up a Local Cluster: "setting_up_a_local_cluster.md"
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Swtich to light mode
