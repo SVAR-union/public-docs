@@ -200,7 +200,7 @@ sudo snap install helm --classic
 
 Check if Helm is installed:
 ```
-helm --version
+helm version
 ```
 The correct output should look like:
 ```
